@@ -1,0 +1,44 @@
+10. Java I/O
+    a. I/0 class hierarchy
+    b. Binary and Character streams
+    c. Buffered Readers and Writers
+    d. Console I/0
+    e. File I/0
+    f. Serialization
+
+
+Java I/O Made Simple
+    I/O stands for Input/Output.
+        Input → reading data (from keyboard, file, etc.)
+        Output → writing data (to console, file, etc.)
+-->Java provides classes to handle files, text, and objects.
+
+Java I/O is divided mainly into two types of streams:
+1. Byte Streams → Handle binary data (images, audio, files)
+       a. InputStream (read bytes)
+          FileInputStream, BufferedInputStream
+
+       b. OutputStream (write bytes)
+          FileOutputStream, BufferedOutputStream
+
+2. Character Streams → Handle text data (characters, strings)
+    a. Reader (read characters)
+       FileReader, BufferedReader
+
+    b. Writer (write characters)
+       FileWriter, BufferedWriter
+
+Hierarchy (simplified):
+InputStream             Reader
+   |                     |
+FileInputStream        FileReader
+BufferedInputStream    BufferedReader
+
+OutputStream            Writer
+   |                     |
+FileOutputStream       FileWriter
+BufferedOutputStream   BufferedWriter
+
+
+
+
