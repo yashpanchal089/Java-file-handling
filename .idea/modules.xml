@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java I-O.iml" filepath="$PROJECT_DIR$/.idea/Java I-O.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaInputOutput/JavaInputOutput.iml" filepath="$PROJECT_DIR$/JavaInputOutput/JavaInputOutput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StudentRecordManagement/StudentRecordManagement.iml" filepath="$PROJECT_DIR$/StudentRecordManagement/StudentRecordManagement.iml" />
     </modules>
   </component>
 </project>
